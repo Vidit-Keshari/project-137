@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI object detector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <center>
+        <h1 class="btn btn-danger">AI object detector
+            <br>
+            <label>Note: Write a name of object that matches with cocossd list and then it will find the required object for you</label>
+        </h1>
+        <h3>Object Name:</h3>
+        <input id="obj_name" type="text" placeholder="Enter your object name here">
+        <br>
+        <br>
+        <button onclick="start();" class="btn btn-warning">Start</button>
+        <br>
+        <br>
+        <h3 class="btn btn-info" id="status"></h3>
+        <h3 class="btn btn-success" id="finding_status"></h3>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label></label>
+        <div id="copyright_footer">
+            Devloped by - VIDIT KESHARI
+            <img src="WIN_20201228_18_49_16_Pro.jpg">
+        </div>
+    </center>
+</body>
+</html>
